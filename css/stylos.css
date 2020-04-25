@@ -1,0 +1,449 @@
+
+
+body
+{
+	
+	padding: 0em 0em;
+	margin:  0em 0em;
+	font-family: 'Orbitron', sans-serif;
+}
+
+
+/*NAVEGACION*/
+
+nav 
+{
+
+font-size: 1.6em;
+
+}
+
+
+ .navegadormargen
+{
+margin: 0px 0px 0px 0px;
+}
+
+.nav-link:hover 
+{border: solid  #ffc107 ;}
+
+
+.iconsmall{height: 80px; width:80px;}
+
+/* Fin de Menu-Navegador */
+
+
+/* SLIDER FIJO */
+.main-header
+{
+	position: relative;
+	background:url(../../../../img/slidercamera.jpg);
+	background-size: cover;
+	top: 0em;
+	bottom: 0em;
+	min-height: 43.75em;
+	
+	color: #fff;
+	
+}
+
+.bg-overlay 
+{
+	position: absolute;
+	background: rgba(102,102,102,0.8);
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+  }
+
+
+.fa-facebook-square
+{color: #343a40;}
+
+ 
+
+.fa-facebook-square:hover
+{color: #ffc107;}
+
+
+h1 
+{
+
+font-size: 3em; 
+font-weight: 500;
+
+}
+
+.iconfacebook{margin-top:90px; }
+
+
+/* Fin de Slider */
+
+/* SERVICIOS */
+.serviciosseguridad
+{
+	color: #343a40 ;
+	font-size: 3em;
+
+    
+}
+
+.serviciosseguridad h2 
+{
+	font-weight: 900;
+	font-size: 1.5em;
+}
+
+
+.cardseccionpost1
+{
+	background: #FFDF7E;
+	margin: 0em 1em 2.5em 1em; 
+	padding: 1em 0.5em 1em 0.5em;
+	
+}
+
+.paddingsec
+{
+	margin: 2em 0em;
+}
+
+/* Fin de servicios */
+
+/* SECCCION-COMPAÑIA*/
+/* .sectioncompañia
+{
+	font-size: 3.5em;
+	padding: 2em 1em;
+	margin-top: 2em;
+    margin-bottom: 2em;
+} */
+	
+/* Fin de SECCION-COMPAÑIA */
+
+/* SECCION-PRODUCTOS */
+
+.card-header 
+	{
+		font-weight: 900;
+		font-size: 3em;
+	}
+
+	 
+	  h5  
+	{
+		font-size: 2em;
+		font-weight: 900;
+	}
+	 
+
+	.descripcionproducto 
+	{
+		font-size: 2em;
+	}
+	
+	.cardseccionpostproduc
+	{
+		background:#FFDF7E;
+		margin: 8em  4em; 
+		padding: 1em;
+		
+	}
+
+/* Fin SECCION-PRODUCTOS */
+
+/* FORMULARIO-CONTACTO */
+
+.formulariosistemseg
+{
+	min-height: 50em; 
+}
+
+.formulariocontacto 
+{
+	border: 6px solid #ffc107;
+	margin: 2em 0em; 
+	
+}
+
+.paddingformulario 
+{
+	margin: 1em 1em;
+	padding: 1em 1em;
+}
+.usodedatos 
+{
+	font-size: 1em;
+}
+
+.itemformulario
+{
+margin-right: 16px;	
+}
+
+
+.casilla 
+{
+	height:  7em;
+	
+}
+
+
+.bannerform 
+{
+	margin: 0em 2em;
+	padding: 2em 0em;
+	height: 100%;
+	width: 100%
+	
+
+}
+
+.checkboxform
+{
+	font-size: 2em;
+	
+}
+
+.checkboxx
+{
+	width: 30px;
+	height: 30px;
+}
+/* Fin FORMULARIO-CONTACTO */
+
+/* SECCION-MARCAS */
+.seccionmarcas
+{
+background:#E0DFDF ;	
+}
+
+
+.itemformulario
+{
+font-size: x-large;
+}
+
+
+/* Fin SECCION-MARCAS */
+
+/* FOOOTERS */
+.footerpoliticasprivaccidad
+{
+line-height: 0.5;
+font-weight: bold;
+font-size: x-large;
+	
+}
+
+.lineauthor
+{border-top: 0.7em solid #343a40 ;
+ padding: 1em 0em 1.5em 0em ;}
+/* FIN FOOTERS/
+
+
+/* MEDIAQUERYS */
+
+/* SM */
+@media only screen and (min-width: 33.9em) 
+{ 
+	  nav {font-size: 2.5em; 
+			 min-height: 10em;}
+			 
+			 .sectioncompañia
+			 {
+				 font-size: 3em;
+				 margin: 6em 0em;
+				 padding: 1em 0em;
+				 
+			 }
+						 		  
+	
+			 
+	
+ 
+
+.imglogo
+ {
+	 width: 18em;
+	 height: 10em;
+ }
+ 
+ h1 
+ {
+ 
+ font-size: 4.0em; 
+ font-weight: 500;
+ 
+ }
+	 
+
+
+}
+
+
+
+.buttonform
+ {
+	 font-size: 3em;
+	 font-weight: 900;
+	 
+ }
+
+ .usodedatos 
+ {
+	 font-size: 2.5em;
+
+ }
+ 
+/* MD */
+@media only screen and (min-width: 47.9em) {
+		 
+
+nav {font-size: 2.5em; 
+	min-height: 10em;}
+
+
+	.sectioncompañia
+			 {
+				 font-size: 3.2em;
+				 margin: 6em 0em;
+				 padding: 1em 0em;
+				 
+			 }
+			
+
+}
+
+.buttonform
+ {
+	 font-size: 3em;
+	 font-weight: 900;
+ }
+
+ .usodedatos 
+{
+	font-size: 20px;
+}
+
+
+/* LG */
+@media only screen and (min-width: 61.9em) {
+	nav{min-height: 9em;}	 
+	.iconfacebook{margin-top:0em; }
+	
+.casilla 
+{
+	height:  3.1em;
+}
+
+nav {font-size: 1.5em; 
+	min-height: 6em;}
+
+	h1{
+
+		font-size: 3em; 
+		font-weight: 500;
+		
+		}
+		.serviciosseguridad
+		{
+			color: #343a40 ;
+			font-size: 1.5em;
+		
+			
+		}
+		
+		.serviciosseguridad h2 
+		{
+			font-weight: 900;
+			font-size: 1.5em;
+		}
+		.sectioncompañia
+		{
+			font-size: 1em;
+						
+		}	
+		.card-header 
+		{
+			font-weight: 900;
+			font-size: 2em;
+		}
+	
+		 
+		  h5  
+		{
+			font-size: 1em;
+			font-weight: 900;
+		}
+		 
+	
+		.descripcionproducto 
+		{
+			font-size: 1.5em;
+			font-weight: normal;
+		}
+		
+		.cardseccionpostproduc
+		{
+			background:#FFDF7E;
+			margin: 3em  1em; 
+			padding: 1em;
+			
+		}
+		.sectioncompañia
+		{
+			font-size: 2.5em;
+			padding: 1em 0.5em;
+			margin-top: 4em;
+		}
+	   
+
+		.buttonform
+ {
+	 font-size: 2em;
+	 font-weight: 900;
+ }
+ .usodedatos 
+{
+	font-size: 1em;
+}
+
+
+}
+
+ /* XL */
+@media only screen and (min-width: 74.9em) { 
+		.iconfacebook{margin-top:0em; }
+	
+
+
+nav {font-size: 1.5em; 
+	min-height: 4em;}
+
+	
+.imglogo
+{
+	width: 12em;
+	height: 5em;
+}
+
+h1{
+
+font-size: 3em; 
+font-weight: 500;
+
+}
+
+.sectioncompañia
+		{
+			font-size: 2em;
+			padding: 1em 0.5em;
+		}
+	   
+
+	
+}
+  
+/* Fin MEDIQUERYS */
